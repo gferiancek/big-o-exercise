@@ -11,9 +11,10 @@ O(n)
 O(1)
 
 ## O(n<sup>2</sup> + n<sup>3</sup>)
-O(n<sup>2</sup>)
-( Correct answer: O(n^3) I assumed it would work like O(534) = O(1), but I can see how an extra exponet value has a far larger
-impact than extra constants. )
+~~O(n<sup>2</sup>)~~
+
+Correct answer: O(n^3) I assumed it would work like O(534) = O(1), but I can see how an extra exponet value has a far larger
+impact than extra constants.
 
 ## O(n + n + n + n)
 O(n)
@@ -122,8 +123,9 @@ O(n) - Looping n times and while includes is O(n) it's on a fixed string, making
 True - + n is the smaller portion and can be omitted.
 
 ## True or False: n<sup>2</sup> * n is O(n<sup>3</sup>)
-False - n<sup>2</sup> vs n<sup>3</sup> is irrelevant, so it can be reduced to n<sub>2</sup>.
-( Correct Answer: True. As noted in Part 1, I assumed n^3 reduced to n^2. )
+~~False - n<sup>2</sup> vs n<sup>3</sup> is irrelevant, so it can be reduced to n<sub>2</sup>.~~
+
+Correct Answer: True. As noted in Part 1, I assumed n^3 reduced to n^2.
 
 ## True or False: n<sup>2</sup> + n is O(n)
 False - n is the small portion an is omitted, leaving O(n<sup>2</sup>).
@@ -134,11 +136,11 @@ O(n) - `indexOf()` needs to loop through each item in the array.
 ## What's the time complexity of the .includes array method?
 O(n) - `includes()` also needs to loop through each item in the array.
 
-## What's the time complexity of the forEAch array method?
+## What's the time complexity of the forEach array method?
 O(n) - As the name implies, `forEach()` will loop through each item in the array! (Though, what you put inside of your `forEach()` block could potentially increase the time complexity.)
 
 ## What's the time complexity of the .sort array method?
-O(n log n) - I'm not 100% certain on this one, as it can vary depending on the sort criteria. Colt did say that at best, sorting is O(n log n) though, so I'd think the main sort function would at least target that.
+O(n log n) - I'm not 100% certain on this one, as it might vary depending on the sort criteria. Colt did say that at best, sorting is O(n log n) though, so I'd think the main sort function would at least target that.
 
 ## What's the time complexity of the .unshift array method?
 O(n) - You need to increase the indicies of each exisiting element, so you work on each item in array.
