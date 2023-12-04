@@ -12,9 +12,8 @@ O(1)
 
 ## O(n<sup>2</sup> + n<sup>3</sup>)
 O(n<sup>2</sup>)
-<!-- Correct answer: O(n^3)
-I assumed it would work like O(534) = O(1), but I can see how an extra exponet value has a far larger
-impact than extra constants -->
+( Correct answer: O(n^3) I assumed it would work like O(534) = O(1), but I can see how an extra exponet value has a far larger
+impact than extra constants. )
 
 ## O(n + n + n + n)
 O(n)
@@ -124,8 +123,8 @@ True - + n is the smaller portion and can be omitted.
 
 ## True or False: n<sup>2</sup> * n is O(n<sup>3</sup>)
 False - n<sup>2</sup> vs n<sup>3</sup> is irrelevant, so it can be reduced to n<sub>2</sup>.
+( Correct Answer: True. As noted in Part 1, I assumed n^3 reduced to n^2. )
 
-<!-- Correct Anser: True. As noted in Part 1, I assumed n^3 reduced to n^2. -->
 ## True or False: n<sup>2</sup> + n is O(n)
 False - n is the small portion an is omitted, leaving O(n<sup>2</sup>).
 
